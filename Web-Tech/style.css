@@ -1,3 +1,12 @@
 html {
-  background-color: greenyellow;
+  background-image: url("img/tech-background.webp");
+  background-repeat: no-repeat;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid;
+  width: 600px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+  border-radius: 10px;
 }
