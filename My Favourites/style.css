@@ -30,12 +30,12 @@ section {
 .emphasized { font-style: italic; }
 
 
-a { color: rgb(128, 0, 0);
+a { color: rgb(0, 113, 128);
     text-decoration: none;
 }
 
 a:hover { 
-  color:purple;
+  color:rgba(0, 113, 128, 0.486);
   text-decoration: underline;
 }
 
