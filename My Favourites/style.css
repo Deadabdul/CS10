@@ -29,7 +29,6 @@ section {
 
 .emphasized { font-style: italic; }
 
-img { border-radius: 10px; }
 
 a { color: rgb(128, 0, 0);
     text-decoration: none;
@@ -40,11 +39,18 @@ a:hover {
   text-decoration: underline;
 }
 
-/* .hidden{
+.hidden{
   opacity: 0;
+  filter:blur(5px);
+  transform: translateX(-100%);
   transition: all 1s;
-} */
+}
+
+
 .show{
+  transition: all 1s;
   opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
   
 }
