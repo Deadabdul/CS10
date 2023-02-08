@@ -18,5 +18,5 @@ function CreateMadlib() {
 
     
     //OUTPUT
-    document.getElementById("output").innerHTML = (msg);
+    document.getElementById("output").innerHTML = msg;
 }
