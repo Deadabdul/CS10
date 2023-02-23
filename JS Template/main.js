@@ -5,10 +5,10 @@ function btnClicked() {
     //input
     let input = document.getElementById("input").value;
     //process
-    let average = input;
+    let processed = input;
 
     //output
-    output.innerHTML = average;
+    output.innerHTML = processed;
 
 
 
