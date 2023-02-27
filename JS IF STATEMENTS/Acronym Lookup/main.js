@@ -5,17 +5,16 @@ function btnClicked() {
     //input
     let input = document.getElementById("input").value;
     //process
-    let output = document.getElementById("output").value;
+    let output = "";
 
-    if(input = "html") { output.innerHTML = "Hypertext Markup Language" }
-    if(input = "http") { output.innerHTML = "Hypertext Transfer Protocol"}
-    if(input = "php") { output.innerHTML = "Hypertext Preprocessor" }
-    if(input = "https") { output.innerHTML = "Hypertext Transfer Protocol Secure" }
-    if(input = "sql") { output.innerHTML = "Structured Query Language" }
-    if(input = "xhtml") { output.innerHTML = "EXtensible HyperText Markup Language" }
-    //output
-    output.innerHTML = processed;
-
+    if(input === "html") { output = "Hypertext Markup Language" }
+    if(input === "http") { output = "Hypertext Transfer Protocol"}
+    if(input === "php") { output = "Hypertext Preprocessor" }
+    if(input === "https") { output = "Hypertext Transfer Protocol Secure" }
+    if(input === "sql") { output = "Structured Query Language" }
+    if(input === "xhtml") { output = "Extensible HyperText Markup Language" }
+    // output
+    document.getElementById("output").innerHTML = output;
 
 
 }
