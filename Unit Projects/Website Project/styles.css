@@ -1,0 +1,59 @@
+html {
+    background: url(img/chess.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin: 50px auto;
+    padding: 25px 75px;
+    border-radius: 10px;
+}
+header {
+
+    font-family: "gloockregular", serif;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'gloockregular';
+    src: url('Font Families/Gloock/gloock-regular-webfont.woff2') format('woff2'),
+    url('Font Families/Gloock/gloock-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+
+}
+
+☻h1 {
+    color: rgb(70, 16, 16);
+}
+h2 {
+    color: rgb(219, 124, 0);
+    text-decoration: underline;
+}
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
