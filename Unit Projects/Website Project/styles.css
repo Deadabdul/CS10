@@ -7,6 +7,10 @@ html {
 
 
 }
+#about div p{
+    padding: 25px;
+
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,10 +19,14 @@ body {
     padding: 25px 75px;
     border-radius: 10px;
 }
-.title{
+.background {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+}
+.title {
     font-size: 3em;
     color: white;
-    margin: 5em auto;
+    margin: 5em  0 auto;
     text-align: center;
 }
 header {
@@ -29,7 +37,7 @@ header {
     justify-content: space-evenly;
     font-size: 25px
 }
-.heade{
+.header{
 
     color: white;
 }
