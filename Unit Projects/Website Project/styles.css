@@ -7,14 +7,21 @@ html {
 
 
 }
+.greyBackground {
+    background-color: gray;
+    border-radius: 10px;
+}
 #about div p{
+    font-size: 1.5em;
+    color: white;
     padding: 25px;
+
 
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     padding: 25px 75px;
     border-radius: 10px;
