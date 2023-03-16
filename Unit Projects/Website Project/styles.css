@@ -7,7 +7,16 @@ html {
 
 
 }
+#quiz{
+    color: white;
+    font-size: 1.25em;
+}
+p strong{
+    color: black;
+    font-size: 1.5em;
+}
 .greyBackground {
+    text-align: center;
     background-color: rgba(128, 128, 128, 0.5);
     border-radius: 10px;
 }
@@ -21,7 +30,7 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     padding: 25px 75px;
     border-radius: 10px;
