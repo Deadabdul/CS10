@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #0072c6;
+    background-color: #000000;
     color: white;
     padding: 1rem;
     display: flex;
@@ -71,7 +71,7 @@ label {
 
 input[type="text"] {
     padding: 0.5rem;
-    border: 2px solid #0072c6;
+    border: 2px solid #000000;
     border-radius: 4px;
     width: 100%;
     font-size: 1em;
@@ -79,7 +79,7 @@ input[type="text"] {
 
 button[type="button"] {
     margin: 1em;
-    background-color: #0072c6;
+    background-color: #000000;
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -90,7 +90,7 @@ button[type="button"] {
 
 button[type="button"]:hover {
 
-    background-color: #005ea2;
+    background-color: #080808;
 }
 
 #Home{
