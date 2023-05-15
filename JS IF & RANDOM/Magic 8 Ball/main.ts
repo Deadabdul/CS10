@@ -10,14 +10,14 @@ const responses = [
 ];
 
 // Input
-let input = document.getElementById("question");
-let response = document.getElementById("response");
+let input: HTMLElement = document.getElementById("question");
+let response: HTMLElement = document.getElementById("response");
 
 // Add event listener to button
 
 function btnClicked()
 {
-    const question = input.value.trim();
+    const question = (<HTMLInputElement>input).value.trim();
     if (question === "") {
         response.textContent = "Please ask a question...";
     } else if (question.toLowerCase() === "does a magic 8 ball actually work?") {
